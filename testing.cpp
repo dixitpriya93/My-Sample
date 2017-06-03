@@ -2,7 +2,7 @@
 #include <conio.h>
  using namespace std;
  
- int a, b, c;
+ int a, b, c, d;
  int main()
  {
 	 cout << "Enter your numbers here \n";
@@ -11,6 +11,7 @@
 	 cin >> b;
 	 cin.ignore();
 	 c = a + b;
+	 d = a;
 	 cout << " Sum is " << c;
 	 return 0;
 	
